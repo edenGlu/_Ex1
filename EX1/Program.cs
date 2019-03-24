@@ -85,7 +85,7 @@ namespace Excercise_1
 
             funcList["Stam"] = val => val + 100;
             SingleMission mission5 = new SingleMission(funcList["Stam"], "mission5");
-
+            //
             var missionList = new List<IMission>() { mission1, mission2, mission3, mission4, mission5 };
 
             foreach (var m in missionList)
